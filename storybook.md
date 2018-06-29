@@ -1,17 +1,15 @@
-### intro
+### INTRO
 UI development environment 
 
 for UI components
 
 visualize different states of your UI componenets 
 
-develop components ineractively
+develop components interactively
 
 "component explorer"
 
-runs outside your app so you can develop UI components in isolation
-
-dont have to worry about specific dependencies and requirements
+storybook puts modularity front and center
 
 - [storybook home](https://storybook.js.org/)
 - [storybook docs](https://storybook.js.org/basics/introduction/)
@@ -30,29 +28,48 @@ pain points without storybook: app reloads, looses context (ex: input references
 - focus on component without having to manipulate a larger application
 - no worries about dependencies and requirements
 - see UI changes online on the app without leaving the browser
-- flexibility
-- quick iteration
+- flexibility and quick iteration
 - reusability
 - documentation for collaberating cross funtional teams
+- control and develope two different platforms simultaniously
 
 ### HOW:
-simple to implement. navigate to project. cli commands. install storybook/react. add corresponding scripts. will compile everyting in their own webpack and dev set up. offer a localhost to see gooie
+- simple to implement
+- navigate to project
+- cli commands
+- install storybook/react
+- add corresponding scripts
+- it will compile everything in their own webpack and dev set up
+- it will offer a localhost to see gooie
+- make modifications to import your webpack into theirs
+- write stories to get components into their gooies
+- stories look a lot like like test specs
 
-make modifications to import your webpack into theirs
-
-write stories to get components into their gooies
-
-stories look a lot like like test specs
 
 ### WORKFLOW:
 - frontend developers can continue to make progress even when details change 
 - other teams will not be a stopper
 - easy for new devs to jump into without knowing everything about the whole app
-- help designers context switch over weeks of time
+- help designers context switch over weeks of 
+- BEFORE: entire feature for one developer... this is not best
+- WITH STORYBOOK: separate work by components instead of entire scenes
+- scenes have several concerns (redux, container that connects redux to component, layout concerns, basic internal component concerns)
+- when you separate work by components, you separate work by concerns
+- traditional gitflow. one masterbranch create PRs into it. 
 
-_"gooie"_
 
 ---
+
+
+_"gooey"_ : display window
+_"scene"_ : feature
+_"stories"_ : testing/development/showcase harnesses for components
+_"platform"_ : android or ios
+_"pr"_ : pull request
+
+
+---
+
 
 #### get started in a project:
 ```
@@ -108,40 +125,5 @@ run storybook:
 
 
 
-
-
-
-
-
-
-
-
-
----
----------------
-
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
-
-Alt-H1
-======
-
-Alt-H2
-------
-
-*italicized* _emphasis_
-**bold** __strong__
-~~scratch this~~
-
-   properly indented paragraphs
-
-- unordered lists
-
-[i am in inline-style link](google.com)
 >blockquote
 
