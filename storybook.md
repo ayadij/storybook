@@ -11,9 +11,10 @@ runs outside your app so you can develop UI components in isolation
 
 dont have to worry about specific dependencies and requirements
 
-[storybook home](https://storybook.js.org/)
-[storybook docs](https://storybook.js.org/basics/introduction/)
-[storybook examples](https://storybook.js.org/examples/)
+- [storybook home](https://storybook.js.org/)
+- [storybook docs](https://storybook.js.org/basics/introduction/)
+- [storybook examples](https://storybook.js.org/examples/)
+- [storybook live example](https://storybooks-official.netlify.com/?selectedKind=ui%2FMenuItem&selectedStory=default&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Fstories%2Fstories-panel)
 
 
 ---
@@ -25,6 +26,7 @@ npm i -g @storybook/cli
 getstorybook
 ```
 run:
+
 ```npm run storybook```
 then access storybook from browser
 
@@ -35,8 +37,10 @@ then access storybook from browser
 ```npm i --save-dev @storybook/react```
 
 add react, react-dom, and babel-core:
-```npm i --save react react-dom```
-```npm i --save-dev babel-core```
+```
+npm i --save react react-dom
+npm i --save-dev babel-core
+```
 
 add to package json:
 ```javascript
@@ -48,7 +52,7 @@ add to package json:
 ```
 create config file:
 
-```getstorybook``` CLS generates 5 config files
+```getstorybook``` CLI generates 5 config files
 - .storybook/config.js
 - .storybook/webpack.config.js
 - ./package.json
@@ -58,11 +62,12 @@ create config file:
 write stories
 
 run storybook:
+
 ```npm run storybook```
 
 ---
 
-### [LIVE EXAMPLE](https://storybooks-official.netlify.com/?selectedKind=ui%2FMenuItem&selectedStory=default&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Fstories%2Fstories-panel)
+
 
 
 
