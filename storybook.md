@@ -7,6 +7,8 @@ visualize different states of your UI componenets
 
 develop components ineractively
 
+"component explorer"
+
 runs outside your app so you can develop UI components in isolation
 
 dont have to worry about specific dependencies and requirements
@@ -16,6 +18,39 @@ dont have to worry about specific dependencies and requirements
 - [storybook examples](https://storybook.js.org/examples/)
 - [storybook live example](https://storybooks-official.netlify.com/?selectedKind=ui%2FMenuItem&selectedStory=default&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Fstories%2Fstories-panel)
 
+---
+
+pain points without storybook: app reloads, looses context (ex: input references), makes network requests
+
+### PROS:
+- makes you aware of state early on
+- collaberate in ease
+- integrated into your app but runs outside of it
+- develop component in isolation
+- focus on component without having to manipulate a larger application
+- no worries about dependencies and requirements
+- see UI changes online on the app without leaving the browser
+- flexibility
+- quick iteration
+- reusability
+- documentation for collaberating cross funtional teams
+
+### HOW:
+simple to implement. navigate to project. cli commands. install storybook/react. add corresponding scripts. will compile everyting in their own webpack and dev set up. offer a localhost to see gooie
+
+make modifications to import your webpack into theirs
+
+write stories to get components into their gooies
+
+stories look a lot like like test specs
+
+### WORKFLOW:
+- frontend developers can continue to make progress even when details change 
+- other teams will not be a stopper
+- easy for new devs to jump into without knowing everything about the whole app
+- help designers context switch over weeks of time
+
+_"gooie"_
 
 ---
 
