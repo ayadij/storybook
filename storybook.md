@@ -1,3 +1,5 @@
+---
+
 ### INTRO
 UI development environment 
 
@@ -11,10 +13,10 @@ develop components interactively
 
 storybook puts modularity front and center
 
-- [storybook home](https://storybook.js.org/)
-- [storybook docs](https://storybook.js.org/basics/introduction/)
-- [storybook examples](https://storybook.js.org/examples/)
-- [storybook live example](https://storybooks-official.netlify.com/?selectedKind=ui%2FMenuItem&selectedStory=default&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Fstories%2Fstories-panel)
+> - [storybook home](https://storybook.js.org/)
+> - [storybook docs](https://storybook.js.org/basics/introduction/)
+> - [storybook examples](https://storybook.js.org/examples/)
+> - [storybook live example](https://storybooks-official.netlify.com/?selectedKind=ui%2FMenuItem&selectedStory=default&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Fstories%2Fstories-panel)
 
 ---
 
@@ -62,9 +64,13 @@ pain points without storybook: app reloads, looses context (ex: input references
 
 
 _"gooey"_ : display window
+
 _"scene"_ : feature
+
 _"stories"_ : testing/development/showcase harnesses for components
+
 _"platform"_ : android or ios
+
 _"pr"_ : pull request
 
 
