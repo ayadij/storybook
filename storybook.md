@@ -1,5 +1,7 @@
 ### intro
-storybook is a UI development environment for UI components
+UI development environment 
+
+for UI components
 
 visualize different states of your UI componenets 
 
@@ -9,10 +11,14 @@ runs outside your app so you can develop UI components in isolation
 
 dont have to worry about specific dependencies and requirements
 
+[storybook home](https://storybook.js.org/)
+[storybook docs](https://storybook.js.org/basics/introduction/)
+[storybook examples](https://storybook.js.org/examples/)
+
 
 ---
 
-####get started in a project:
+#### get started in a project:
 ```
 cd my-project-directory
 npm i -g @storybook/cli
@@ -22,7 +28,7 @@ run:
 ```npm run storybook```
 then access storybook from browser
 
-####storybook/react:
+#### storybook/react:
 
 [docs](https://storybook.js.org/basics/guide-react/)
 
@@ -40,7 +46,14 @@ add to package json:
   }
 }
 ```
-create config file
+create config file:
+
+```getstorybook``` CLS generates 5 config files
+- .storybook/config.js
+- .storybook/webpack.config.js
+- ./package.json
+- ./stories/index.js
+- ./webpack.config.js
 
 write stories
 
@@ -49,7 +62,7 @@ run storybook:
 
 ---
 
-
+### [LIVE EXAMPLE](https://storybooks-official.netlify.com/?selectedKind=ui%2FMenuItem&selectedStory=default&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Fstories%2Fstories-panel)
 
 
 
