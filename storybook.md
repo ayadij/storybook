@@ -73,6 +73,8 @@ _"platform"_ : android or ios
 
 _"pr"_ : pull request
 
+_"cli"_ : command line interface or command language interpreter
+
 
 ---
 
@@ -124,3 +126,8 @@ run storybook:
 ```npm run storybook```
 
 ---
+
+
+```
+$ cd Documents/SendOutCards/storybook
+```
